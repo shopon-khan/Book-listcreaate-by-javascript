@@ -1,0 +1,62 @@
+.form-container {
+    text-align: center;
+}
+
+span.creator-name {
+    color: darkorange;
+}
+
+
+input#title, #author, #year {
+    margin: 10px;
+    width: 50%;
+    height: 30px;
+    color: #84848f;
+    font-size: 20px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    outline: none;
+}
+
+input#author, #title, #year {
+    text-align: center;
+}
+
+label {
+    font-weight: 800;
+}
+
+.form-group {
+    font-weight: 800;
+}
+
+input[type="submit"] {
+    border: none;
+    background-color: #0c62fd;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 5px;
+    width: 50%;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3b78e9;
+    transition:0.5s;
+}
+th {
+    padding-left: 50px;
+}
+table.table {
+    margin-left: 313px;
+}
+
+th {border: 2px solid black;
+    padding: 5px;
+    padding-left: 143px;
+}
+
+.table {
+    padding-top: 15px;
+}
